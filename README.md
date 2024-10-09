@@ -1,0 +1,1 @@
+index.html è léntrypoint del sito, gestito con github pages.
