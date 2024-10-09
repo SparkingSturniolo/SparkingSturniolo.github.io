@@ -1,1 +1,1 @@
-index.html è léntrypoint del sito, gestito con github pages.
+index.html è l'entrypoint del sito, gestito con github pages.
