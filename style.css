@@ -8,6 +8,11 @@ html {
     font-style: normal;
 }
 
+*>a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* ===== Scrollbar CSS ===== */
 /* Firefox */
 * {
@@ -145,8 +150,24 @@ html {
     padding: 2px;
 }
 
-.rankRow:nth-child(even) {
+.rankRow:nth-child(even),
+.rowGrade:nth-child(even),
+.torneoOld:nth-child(even) {
     background-color: #292929;
+}
+
+.torneoOld {
+    display: grid;
+    color: #ffffff;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+iframe {
+    height: 350px;
+    width: auto;
 }
 
 .rankRow>p {
@@ -162,4 +183,24 @@ html {
     border-color: #ffbb36;
     border-width: 2px;
     border-style: solid;
+}
+
+.rowGrade {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    padding: 3px;
+    color: #ffffff;
+}
+
+.rowGrade>div>img {
+    width: 250px;
+    height: auto;
+}
+
+#history {
+    display: grid;
+    grid-template-rows: repeat(auto, 1fr)
 }
