@@ -175,8 +175,8 @@ iframe {
 }
 
 .rankRow>p>img {
-    height: 40px;
-    width: auto;
+    height: auto;
+    width: 70px;
 }
 
 #Lastwinner {
@@ -203,4 +203,84 @@ iframe {
 #history {
     display: grid;
     grid-template-rows: repeat(auto, 1fr)
+}
+
+@media screen and (max-width: 1030px) {
+
+    #space-left,
+    #space-right {
+        width: 10vw;
+    }
+
+    #containerMain {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 940px) {
+
+    #space-left,
+    #space-right {
+        width: 5vw;
+    }
+
+    #containerMain {
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 820px) {
+
+    #space-left,
+    #space-right {
+        width: 0;
+    }
+
+    #containerMain {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 740px) {
+
+    .rankRow {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .rankRow {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .rankRow {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+
+    .rankRow {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+
+    .rowGrade {
+        display: block;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 730px) {
+
+    .torneoOld {
+        display: block;
+    }
 }
