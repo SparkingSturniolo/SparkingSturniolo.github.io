@@ -1,0 +1,221 @@
+{
+    "players": [
+        {
+            "name": "Luchetz",
+            "grade": "sm",
+            "points": "0",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "pazzosignore",
+            "grade": "sm",
+            "points": "0",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "emaa1",
+            "grade": "sm",
+            "points": "0",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "Tullis",
+            "grade": "sm",
+            "points": "0",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "gabritom",
+            "grade": "sm",
+            "points": "0",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "Zeriously",
+            "grade": "sm",
+            "points": "0",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "gasadafada",
+            "grade": "sm",
+            "points": "0",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "Petowhale",
+            "grade": "sm",
+            "points": "0",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "ViPrezzo",
+            "grade": "sm",
+            "points": "0",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "Io_Rico",
+            "grade": "sm",
+            "points": "0",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "LucaPriori",
+            "grade": "sm",
+            "points": "0",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "Scanda",
+            "grade": "sm",
+            "points": "0",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "Eeeeduard",
+            "grade": "sm",
+            "points": "0",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "Alessio",
+            "grade": "sm",
+            "points": "0",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "Zeno",
+            "grade": "sm",
+            "points": "0",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "Fratenovanta",
+            "grade": "hm",
+            "points": "100",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "BlueSaulTwitch",
+            "grade": "hm",
+            "points": "100",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "Kesli23",
+            "grade": "hm",
+            "points": "100",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "ZioPoseidon",
+            "grade": "hm",
+            "points": "100",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "Dust",
+            "grade": "hm",
+            "points": "100",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "Guggulo",
+            "grade": "hm",
+            "points": "100",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "RattoDiFogna",
+            "grade": "hm",
+            "points": "100",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "MarioSturniolo",
+            "grade": "hm",
+            "points": "100",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "MagicDragon",
+            "grade": "sj",
+            "points": "300",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "Giusmore",
+            "grade": "sj",
+            "points": "300",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "CostaExe",
+            "grade": "sj",
+            "points": "300",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "DeCarry",
+            "grade": "sj",
+            "points": "300",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "Lepotr",
+            "grade": "mj",
+            "points": "700",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "TenaciousDiego",
+            "grade": "mj",
+            "points": "700",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "Spacchio",
+            "grade": "pr",
+            "points": "1000",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "Black",
+            "grade": "ddd",
+            "points": "1500",
+            "victories": "1",
+            "actual": "yes"
+        }
+    ]
+}
