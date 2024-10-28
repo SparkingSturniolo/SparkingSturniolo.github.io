@@ -15,6 +15,83 @@
             "actual": "no"
         },
         {
+            "name": "TohChapa",
+            "grade": "sm",
+            "points": "0",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "Branduardi",
+            "grade": "sm",
+            "points": "0",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "27Manu",
+            "grade": "sm",
+            "points": "0",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "Astrocarota",
+            "grade": "sm",
+            "points": "0",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "Ale123",
+            "grade": "sm",
+            "points": "0",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "Park0",
+            "grade": "sm",
+            "points": "0",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "3dx32y",
+            "grade": "sm",
+            "points": "0",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "IlRedellinps",
+            "grade": "sm",
+            "points": "0",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "Claudio2224",
+            "grade": "sm",
+            "points": "0",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "SalvoShow",
+            "grade": "sm",
+            "points": "0",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "RevekSan",
+            "grade": "sj",
+            "points": "300",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
             "name": "emaa1",
             "grade": "sm",
             "points": "0",
@@ -36,14 +113,14 @@
             "actual": "no"
         },
         {
-            "name": "Zeriously",
+            "name": "Zeriusly",
             "grade": "sm",
             "points": "0",
             "victories": "0",
             "actual": "no"
         },
         {
-            "name": "gasadafada",
+            "name": "gasasafada",
             "grade": "sm",
             "points": "0",
             "victories": "0",
@@ -92,6 +169,13 @@
             "actual": "no"
         },
         {
+            "name": "Andreaformaperfetta",
+            "grade": "mj",
+            "points": "700",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
             "name": "Alessio",
             "grade": "sm",
             "points": "0",
@@ -136,14 +220,14 @@
         {
             "name": "Dust",
             "grade": "hm",
-            "points": "100",
+            "points": "200",
             "victories": "0",
             "actual": "no"
         },
         {
             "name": "Guggulo",
             "grade": "hm",
-            "points": "100",
+            "points": "200",
             "victories": "0",
             "actual": "no"
         },
@@ -156,8 +240,8 @@
         },
         {
             "name": "MarioSturniolo",
-            "grade": "hm",
-            "points": "100",
+            "grade": "pr",
+            "points": "1200",
             "victories": "0",
             "actual": "no"
         },
@@ -165,6 +249,13 @@
             "name": "MagicDragon",
             "grade": "sj",
             "points": "300",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "Joy11",
+            "grade": "hm",
+            "points": "100",
             "victories": "0",
             "actual": "no"
         },
@@ -177,6 +268,13 @@
         },
         {
             "name": "CostaExe",
+            "grade": "sj",
+            "points": "600",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "Genimi",
             "grade": "sj",
             "points": "300",
             "victories": "0",
@@ -192,14 +290,14 @@
         {
             "name": "Lepotr",
             "grade": "mj",
-            "points": "700",
+            "points": "800",
             "victories": "0",
             "actual": "no"
         },
         {
             "name": "TenaciousDiego",
-            "grade": "mj",
-            "points": "700",
+            "grade": "pr",
+            "points": "1000",
             "victories": "0",
             "actual": "no"
         },
@@ -212,6 +310,41 @@
         },
         {
             "name": "Black",
+            "grade": "ddd",
+            "points": "2200",
+            "victories": "1",
+            "actual": "no"
+        },
+        {
+            "name": "Kawazoe",
+            "grade": "hm",
+            "points": "100",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "Dado95",
+            "grade": "hm",
+            "points": "100",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "Katazushi",
+            "grade": "hm",
+            "points": "100",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "Thatsnova",
+            "grade": "hm",
+            "points": "100",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "Quabiks",
             "grade": "ddd",
             "points": "1500",
             "victories": "1",
