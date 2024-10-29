@@ -24,6 +24,19 @@ function rankRender() {
             row.appendChild(rankNumb);
             let name = document.createElement('p');
             name.innerHTML = result.players[i].name;
+            let direction = 1;
+            setInterval(() => {
+                // Se raggiunge la fine, inverte la direzione
+                if (name.scrollLeft >= name.scrollWidth - name.clientWidth) {
+                    direction = -1;
+                }
+                // Se è all'inizio, inverte la direzione
+                else if (name.scrollLeft <= 0) {
+                    direction = 1;
+                }
+                // Aggiorna la posizione di scorrimento
+                setTimeout(() => { name.scrollLeft += direction; }, 1000)
+            }, 1000);
             row.appendChild(name);
             let point = document.createElement('p');
             point.innerHTML = result.players[i].points;
@@ -68,6 +81,8 @@ function rankRender() {
         }
     }
 }
+
+
 
 window.onload = function () {
     rankRender();

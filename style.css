@@ -205,6 +205,23 @@ iframe {
     grid-template-rows: repeat(auto, 1fr)
 }
 
+.rowGrade>div:nth-child(1) {
+    border-color: #e6e4e4;
+    border-style: solid;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    border-width: 2px;
+}
+
+.rowGrade>div:nth-child(2) {
+    padding: 5px;
+}
+
 @media screen and (max-width: 1030px) {
 
     #space-left,
@@ -276,11 +293,41 @@ iframe {
         text-align: center;
         align-items: center;
     }
+
+    .rowGrade>div:nth-child(1) {
+        border: 0;
+        display: block;
+    }
 }
 
 @media screen and (max-width: 730px) {
 
     .torneoOld {
         display: block;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+
+    .rankRow>p:nth-child(2) {
+        max-width: 150px;
+        overflow-x: hidden;
+    }
+
+    .rankRow>p::-webkit-scrollbar-button {
+        display: none;
+    }
+
+    /* Chrome, Edge, and Safari */
+    .rankRow>p::-webkit-scrollbar {
+        display: none;
+    }
+
+    .rankRow>p::-webkit-scrollbar-track {
+        display: none;
+    }
+
+    .rankRow>p::-webkit-scrollbar-thumb {
+        display: none;
     }
 }
