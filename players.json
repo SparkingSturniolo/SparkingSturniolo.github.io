@@ -78,6 +78,20 @@
             "actual": "no"
         },
         {
+            "name": "Lionification",
+            "grade": "hm",
+            "points": "0",
+            "victories": "100",
+            "actual": "no"
+        },
+        {
+            "name": "ManuelVanish",
+            "grade": "hm",
+            "points": "0",
+            "victories": "100",
+            "actual": "no"
+        },
+        {
             "name": "SalvoShow",
             "grade": "sm",
             "points": "0",
@@ -219,8 +233,8 @@
         },
         {
             "name": "Dust",
-            "grade": "hm",
-            "points": "200",
+            "grade": "sj",
+            "points": "300",
             "victories": "0",
             "actual": "no"
         },
