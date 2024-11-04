@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aoboshi+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="./randomizer.js"></script>
     <link rel="icon" type="image/x-icon" href="/imgs/favicon.png">
     <title>Lega Tenkaichi</title>
 </head>
@@ -36,47 +37,38 @@
                         <p>RANGHI</p>
                     </a>
                 </div>
-                <div class="selected">
+                <div class="page">
                     <a href="./archivio.html">
                         <p>ARCHIVIO</p>
                     </a>
                 </div>
                 <div class="page">
                     <a href="./ban.html">
-                        <p>BANLIST</p>
+                        <p>MODIFICATORI</p>
                     </a>
                 </div>
-                <div class="page">
+                <div class="selected">
                     <a href="./random.html">
                         <p>RANDOMIZER</p>
                     </a>
                 </div>
             </div>
-            <div id="seasonList">
-                <a href="./archivio.html">
-                    <div class="actualSeason">SEASON 0</div>
-                </a>
-            </div>
-            <div id="history">
-                <div class="torneoOld">
-                    <p>I Torneo (15/10/2024)</p>
-                    <p><iframe src="https://challonge.com/it/Gokussj5/module" width="100%" height="500" frameborder="0"
-                            scrolling="auto" allowtransparency="true"></iframe></p>
-                    <p><iframe width="560" height="315"
-                            src="https://www.youtube.com/embed/Oe2C__Joab0?si=gR9YUyJSzN6w8AeW"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
-                </div>
-                <div class="torneoOld">
-                    <p>II Torneo (28/10/2024)</p>
-                    <p><iframe src="https://challonge.com/it/Vegeth/module" width="100%" height="500" frameborder="0"
-                            scrolling="auto" allowtransparency="true"></iframe></p>
-                    <p><iframe width="560" height="315"
-                            src="https://www.youtube.com/embed/cb8GYZqQDA8?si=i86PSUsQ9nn8v8s-"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+            <div id="randomizing">
+                <h1>POOL</h1>
+                <p><span>Vegeth</span>, <span>Gogeta (Z)</span>, <span>Gogeta (S)</span>, <span>Kefla</span>,
+                    <span>Gogeta (GT)</span>, <span>Goku UI</span>, <span>Whis</span>, <span>Beerus</span>,
+                    <span>Willow</span>, <span>Broly (Z)</span>, <span>C-19</span>, <span>C-20</span>,
+                    <span>Jiren</span>,
+                    <span>Zamasu</span>, <span>Zamasu Fuso</span>, <span>Cell Super Perfetto</span>,
+                    <span>Reekome</span>,
+                    <span>Trunks (S)</span>, <span>Videl</span>, <span>Muten</span>,
+                    <span>Toppo</span>,
+                    <span>Hit</span>.
+                </p>
+                <p>*Il ban include il personaggio e tutte le sue trasformazioni.</p>
+                <div id="extraction">
+                    <h1 id="execute">Avvia</h1>
+                    <div id="appendBans">Clicca su "Avvia" per avviare l'estrazione</div>
                 </div>
             </div>
         </div>

@@ -104,12 +104,194 @@ html {
 
 #navbar {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 2px;
     text-align: center;
     cursor: pointer;
     color: #ffffff;
     padding: 2px;
+}
+
+#bancontent {
+    text-align: center;
+    color: #ffffff;
+}
+
+#pool>h1 {
+    text-decoration: underline;
+}
+
+.bonusQ {
+    color: #ffbb36;
+}
+
+#bonusList {
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+}
+
+#randomizing {
+    text-align: center;
+    color: #ffffff;
+}
+
+#appendBans {
+    display: block;
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.banned {
+    color: #ffbb36;
+}
+
+button,
+button::after {
+    border: 1px solid rgb(0, 255, 213);
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    position: relative;
+}
+
+button::after {
+    --move1: inset(50% 50% 50% 50%);
+    --move2: inset(31% 0 40% 0);
+    --move3: inset(39% 0 15% 0);
+    --move4: inset(45% 0 40% 0);
+    --move5: inset(45% 0 6% 0);
+    --move6: inset(14% 0 61% 0);
+    clip-path: var(--move1);
+    content: 're-pick';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+}
+
+button:hover::after {
+    animation: glitch_4011 1s;
+    text-shadow: 10 10px 10px black;
+    animation-timing-function: steps(2, end);
+    text-shadow: -3px -3px 0px #1df2f0, 3px 3px 0px #E94BE8;
+    background-color: transparent;
+    border: 3px solid rgb(0, 255, 213);
+}
+
+button:hover {
+    text-shadow: -1px -1px 0px #1df2f0, 1px 1px 0px #E94BE8;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 1px solid rgb(0, 255, 213);
+    box-shadow: 0px 10px 10px -10px rgb(0, 255, 213);
+}
+
+@keyframes glitch_4011 {
+    0% {
+        clip-path: var(--move1);
+        transform: translate(0px, -10px);
+    }
+
+    10% {
+        clip-path: var(--move2);
+        transform: translate(-10px, 10px);
+    }
+
+    20% {
+        clip-path: var(--move3);
+        transform: translate(10px, 0px);
+    }
+
+    30% {
+        clip-path: var(--move4);
+        transform: translate(-10px, 10px);
+    }
+
+    40% {
+        clip-path: var(--move5);
+        transform: translate(10px, -10px);
+    }
+
+    50% {
+        clip-path: var(--move6);
+        transform: translate(-10px, 10px);
+    }
+
+    60% {
+        clip-path: var(--move1);
+        transform: translate(10px, -10px);
+    }
+
+    70% {
+        clip-path: var(--move3);
+        transform: translate(-10px, 10px);
+    }
+
+    80% {
+        clip-path: var(--move2);
+        transform: translate(10px, -10px);
+    }
+
+    90% {
+        clip-path: var(--move4);
+        transform: translate(-10px, 10px);
+    }
+
+    100% {
+        clip-path: var(--move1);
+        transform: translate(0);
+    }
+}
+
+.bannedPG {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.bannedPG:nth-child(even) {
+    background-color: #292929;
+}
+
+#execute {
+    cursor: pointer;
+}
+
+#execute:hover {
+    color: #ffbb36;
+}
+
+#randomizing>h1 {
+    text-decoration: underline;
+}
+
+#randomizing>p>span {
+    color: #ffbb36;
+}
+
+#randomizing>p>span:nth-child(even) {
+    color: #3899ff;
+}
+
+#bonusList>div:nth-child(even) {
+    background-color: #292929;
+}
+
+.banGrid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.banGrid:nth-child(even) {
+    background-color: #292929;
+}
+
+.seasonN {
+    color: #3899ff;
 }
 
 .selected {
@@ -260,29 +442,42 @@ iframe {
 
 @media screen and (max-width: 740px) {
 
-    .rankRow {
+    .rankRow,
+    #navbar,
+    .banGrid {
         font-size: 17px;
     }
 }
 
 @media screen and (max-width: 640px) {
 
-    .rankRow {
+    .rankRow,
+    #navbar,
+    .banGrid {
         font-size: 15px;
     }
 }
 
 @media screen and (max-width: 550px) {
 
-    .rankRow {
+    .rankRow,
+    #navbar,
+    .banGrid {
         font-size: 12px;
     }
 }
 
 @media screen and (max-width: 460px) {
 
-    .rankRow {
+    .rankRow,
+    #navbar,
+    .banGrid {
         font-size: 10px;
+    }
+
+    #navbar {
+        margin: 0;
+        padding: 0;
     }
 }
 
@@ -330,4 +525,21 @@ iframe {
     .rankRow>p::-webkit-scrollbar-thumb {
         display: none;
     }
+}
+
+#seasonList {
+    display: grid;
+    grid-template-columns: repeat(auto, 1fr);
+    padding: 3px;
+    font-size: 15px;
+    text-align: center;
+    background-color: #e0e0e0;
+}
+
+#seasonList>p {
+    margin: 0;
+}
+
+.actualSeason {
+    color: #3899ff;
 }

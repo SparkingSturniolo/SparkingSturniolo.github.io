@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aoboshi+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="./scripts.js"></script>
     <link rel="icon" type="image/x-icon" href="/imgs/favicon.png">
     <title>Lega Tenkaichi</title>
 </head>
@@ -36,14 +37,14 @@
                         <p>RANGHI</p>
                     </a>
                 </div>
-                <div class="selected">
+                <div class="page">
                     <a href="./archivio.html">
                         <p>ARCHIVIO</p>
                     </a>
                 </div>
-                <div class="page">
+                <div class="selected">
                     <a href="./ban.html">
-                        <p>BANLIST</p>
+                        <p>MODIFICATORI</p>
                     </a>
                 </div>
                 <div class="page">
@@ -52,31 +53,42 @@
                     </a>
                 </div>
             </div>
-            <div id="seasonList">
-                <a href="./archivio.html">
-                    <div class="actualSeason">SEASON 0</div>
-                </a>
-            </div>
-            <div id="history">
-                <div class="torneoOld">
-                    <p>I Torneo (15/10/2024)</p>
-                    <p><iframe src="https://challonge.com/it/Gokussj5/module" width="100%" height="500" frameborder="0"
-                            scrolling="auto" allowtransparency="true"></iframe></p>
-                    <p><iframe width="560" height="315"
-                            src="https://www.youtube.com/embed/Oe2C__Joab0?si=gR9YUyJSzN6w8AeW"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
-                </div>
-                <div class="torneoOld">
-                    <p>II Torneo (28/10/2024)</p>
-                    <p><iframe src="https://challonge.com/it/Vegeth/module" width="100%" height="500" frameborder="0"
-                            scrolling="auto" allowtransparency="true"></iframe></p>
-                    <p><iframe width="560" height="315"
-                            src="https://www.youtube.com/embed/cb8GYZqQDA8?si=i86PSUsQ9nn8v8s-"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+            <div id="bancontent">
+                <div id="pool">
+                    <h1>LISTA BONUS</h1>
+                    <div id="bonusList">
+                        <div>
+                            <p>Chaotzu <span class="bonusQ">+50</span></p>
+                        </div>
+                        <div>
+                            <p>Saibamen <span class="bonusQ">+50</span></p>
+                        </div>
+                        <div>
+                            <p>Guldo <span class="bonusQ">+50</span></p>
+                        </div>
+                        <div>
+                            <p>Mr. Satan <span class="bonusQ">+100</span></p>
+                        </div>
+                        <div>
+                            <p>Soldato di Freezer <span class="bonusQ">+50</span></p>
+                        </div>
+                        <div>
+                            <p>Babidi <span class="bonusQ">+75</span></p>
+                        </div>
+
+                        <p>*Il bonus è applicabile a un solo personaggio, che verrà schierato come primo nel proprio
+                            team.
+                        </p>
+                    </div>
+                    <h1>BANLIST</h1>
+                    <div class="banGrid">
+                        <p class="seasonN">SEASON 0</p>
+                        <P>//</P>
+                        <P>//</P>
+                        <P>//</P>
+                        <P>//</P>
+                        <P>//</P>
+                    </div>
                 </div>
             </div>
         </div>
