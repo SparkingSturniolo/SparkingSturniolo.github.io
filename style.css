@@ -283,7 +283,7 @@ button:hover {
 
 .banGrid {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(8, 1fr);
 }
 
 .banGrid:nth-child(even) {

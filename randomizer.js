@@ -1,7 +1,7 @@
 let array = [
     "Vegeth", "Gogeta (Z)", "Gogeta (S)", "Kefla", "Gogeta (GT)", "Goku UI", "Whis", "Beerus", "Willow",
-    "Broly (Z)", "C-19", "C-20", "Jiren", "Zamasu", "Zamasu Fuso", "Cell Super Perfetto", "Reekome",
-    "Trunks (S)", "Videl", "Muten", "Toppo", "Hit"
+    "Broly (Z)", "C-19", "C-20", "Jiren", "Zamasu", "Zamasu Fuso", "Cell Super Perfetto",
+    "Trunks (S)", "Toppo", "Hit", "Vegeta (Scouter)", "Slug", "Anilaza", "Baby", "Hildegarn", "Janemba"
 ];
 
 let pickedNames = [];
@@ -10,9 +10,9 @@ function estraiEAppendiParagrafo() {
     document.getElementById('appendBans').style.display = 'grid';
     let elementiUnici = [...new Set(array)];
 
-    elementiUnici.sort(() => Math.random() - 0.5);
+    elementiUnici.sort(() => Math.random() - 0.7);
 
-    pickedNames = elementiUnici.slice(0, 5);
+    pickedNames = elementiUnici.slice(0, 7);
 
     let divTarget = document.getElementById('appendBans');
     if (divTarget) {
