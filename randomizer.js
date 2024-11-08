@@ -1,7 +1,7 @@
 let array = [
-    "Vegeth", "Gogeta (Z)", "Gogeta (S)", "Kefla", "Gogeta (GT)", "Goku UI", "Whis", "Beerus", "Willow",
-    "Broly (Z)", "C-19", "C-20", "Jiren", "Zamasu", "Zamasu Fuso", "Cell Super Perfetto",
-    "Trunks (S)", "Toppo", "Hit", "Vegeta (Scouter)", "Slug", "Anilaza", "Baby", "Hildegarn", "Janemba"
+    "Vegeth", "Gogeta (Z)", "Gogeta (S)", "Kefla", "Gogeta (GT)", "Goku UI", "Whis", "Beerus",
+    "Broly (Z)", "C-19", "C-20", "Jiren", "Zamasu Fuso", "Cell Super Perfetto",
+    "Toppo", "Hit"
 ];
 
 let pickedNames = [];
