@@ -1,7 +1,6 @@
 let array = [
     "Vegeth", "Gogeta (Z)", "Gogeta (S)", "Kefla", "Gogeta (GT)", "Goku UI", "Whis", "Beerus",
-    "Broly (Z)", "C-19", "C-20", "Jiren", "Zamasu Fuso", "Cell Super Perfetto",
-    "Toppo", "Hit"
+    "Broly (Z)", "Jiren", "Zamasu Fuso", "Toppo", "Hit"
 ];
 
 let pickedNames = [];
