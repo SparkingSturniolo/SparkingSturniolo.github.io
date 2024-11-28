@@ -2,8 +2,8 @@
     "players": [
         {
             "name": "Luchetz",
-            "grade": "sm",
-            "points": "0",
+            "grade": "sj",
+            "points": "300",
             "victories": "0",
             "actual": "no"
         },
@@ -15,9 +15,16 @@
             "actual": "no"
         },
         {
+            "name": "simonemrg",
+            "grade": "pr",
+            "points": "1000",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
             "name": "TohChapa",
-            "grade": "sm",
-            "points": "0",
+            "grade": "hm",
+            "points": "200",
             "victories": "0",
             "actual": "no"
         },
@@ -30,8 +37,8 @@
         },
         {
             "name": "27Manu",
-            "grade": "sm",
-            "points": "0",
+            "grade": "sj",
+            "points": "300",
             "victories": "0",
             "actual": "no"
         },
@@ -71,6 +78,20 @@
             "actual": "no"
         },
         {
+            "name": "Iltergilunotto",
+            "grade": "hm",
+            "points": "100",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
+            "name": "giovino",
+            "grade": "sm",
+            "points": "0",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
             "name": "Claudio2224",
             "grade": "sm",
             "points": "0",
@@ -101,7 +122,7 @@
         {
             "name": "RevekSan",
             "grade": "sj",
-            "points": "300",
+            "points": "600",
             "victories": "0",
             "actual": "no"
         },
@@ -233,15 +254,15 @@
         },
         {
             "name": "Dust",
-            "grade": "sj",
-            "points": "300",
+            "grade": "pr",
+            "points": "1000",
             "victories": "0",
             "actual": "no"
         },
         {
             "name": "Guggulo",
-            "grade": "hm",
-            "points": "200",
+            "grade": "mj",
+            "points": "900",
             "victories": "0",
             "actual": "no"
         },
@@ -253,9 +274,16 @@
             "actual": "no"
         },
         {
+            "name": "MarcoMart",
+            "grade": "hm",
+            "points": "100",
+            "victories": "0",
+            "actual": "no"
+        },
+        {
             "name": "MarioSturniolo",
             "grade": "pr",
-            "points": "1200",
+            "points": "1300",
             "victories": "0",
             "actual": "no"
         },
@@ -297,23 +325,23 @@
         {
             "name": "DeCarry",
             "grade": "sj",
-            "points": "300",
+            "points": "400",
             "victories": "0",
             "actual": "no"
         },
         {
             "name": "Lepotr",
-            "grade": "mj",
-            "points": "800",
+            "grade": "pr",
+            "points": "1300",
             "victories": "0",
             "actual": "no"
         },
         {
             "name": "TenaciousDiego",
-            "grade": "pr",
-            "points": "1000",
+            "grade": "ddd",
+            "points": "2600",
             "victories": "0",
-            "actual": "no"
+            "actual": "yes"
         },
         {
             "name": "Spacchio",
@@ -332,7 +360,7 @@
         {
             "name": "Kawazoe",
             "grade": "hm",
-            "points": "100",
+            "points": "200",
             "victories": "0",
             "actual": "no"
         },
@@ -360,9 +388,9 @@
         {
             "name": "Quabiks",
             "grade": "ddd",
-            "points": "1500",
+            "points": "1700",
             "victories": "1",
-            "actual": "yes"
+            "actual": "no"
         }
     ]
 }
