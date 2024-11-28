@@ -529,7 +529,7 @@ iframe {
 
 #seasonList {
     display: grid;
-    grid-template-columns: repeat(auto, 1fr);
+    grid-template-columns: repeat(2, 2fr);
     padding: 3px;
     font-size: 15px;
     text-align: center;
@@ -542,4 +542,8 @@ iframe {
 
 .actualSeason {
     color: #3899ff;
+}
+
+.actualSeason:hover {
+    color: #ffbb36;
 }
